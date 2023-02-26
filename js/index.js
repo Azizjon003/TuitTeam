@@ -1,2 +1,5 @@
-const text = "Learning Management System";
-console.log(text.toUpperCase());
+const axios = require("axios");
+const res = axios.get("https://lms.tuit.uz");
+res.then((data) => {
+  console.log(data);
+});

@@ -9,6 +9,24 @@
 .main_one {
   padding: 10px;
 }
+@media only screen and (max-width: 767px) {
+  * {
+    font-size: 10px;
+  }
+  .main_one {
+    display: none;
+  }
+  .main {
+    background-color: #f0f0f0;
+  }
+  .main_two {
+    width: 100%;
+  }
+  .header_login {
+    font-size: 0.3rem;
+    font-weight: 500;
+  }
+}
 .main_div {
   height: 70%;
   width: 50%;
