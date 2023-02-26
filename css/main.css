@@ -1,0 +1,52 @@
+.main {
+  background-color: #f0f0f0;
+  background-color: rgb(29, 45, 91);
+  /* padding: 10px; */
+  height: 100vh;
+  width: 100vw;
+}
+
+.main_one {
+  padding: 10px;
+}
+.main_div {
+  height: 70%;
+  width: 50%;
+}
+.header_login {
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.login_lms {
+  font-weight: 500;
+}
+.main_two {
+  background-color: rgb(255, 255, 255);
+
+  height: 100vh;
+  /* text-align: center; */
+}
+.label_login {
+  font-size: 0.7rem;
+}
+#login_input {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn_login {
+  width: 100%;
+  border: none;
+  background-color: rgb(29, 45, 91) !important;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.item_logo {
+  width: 25%;
+}
+.input_control {
+  font-size: 0.9rem;
+}
+.copyright {
+  font-size: 1rem;
+  color: rgb(29, 45, 91);
+}
